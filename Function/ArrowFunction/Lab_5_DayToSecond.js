@@ -1,5 +1,6 @@
 const daysToSeconds = days => 
 days * 24 * 60 * 60 
 ;
-console.log(daysToSeconds(1)+" วินาที"); 
-console.log(daysToSeconds(5)+" วินาที"); 
+
+let days = prompt("กรุณากรอกวันเพื่อเปลี่ยนเป็นวินาที : ")
+alert("เวลา "+days+" วัน = "+daysToSeconds(days)+" วินาที")
